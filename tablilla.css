@@ -5,4 +5,4 @@
 .belly-tablilla-title::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 6px; background-color: var(--accent); border-radius: 0 6px 0 6px; }
 .belly-tablilla-meta { padding: 0 30px 16px 30px; font-family: 'DM Serif Display', serif; font-size: 10px; font-weight: 800; letter-spacing: 1.5px; color: var(--color-subtitle); text-transform: uppercase; }
 .belly-tablilla-arrow { color: var(--accent); margin: 0 4px; }
-.belly-tablilla-text { padding: 0 30px 30px 30px; font-family: 'DM Serif Display', serif; font-size: 13px; line-height: 1.7; color: var(--color-text); text-align: justify; }
+.belly-tablilla-text { padding: 0 30px 30px 30px; color: var(--color-text); text-align: justify; }
