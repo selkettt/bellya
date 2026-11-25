@@ -1,0 +1,8 @@
+.belly-tablilla-wrapper { display: flex; justify-content: center; padding: 20px; }
+.belly-tablilla { position: relative; width: 400px; max-width: 100%; box-sizing: border-box; border: 6px inset var(--accent); border-radius: 0 30px 0 30px; background: var(--background-2); overflow: hidden; }
+.belly-tablilla-header { padding: 24px 30px 8px 30px; }
+.belly-tablilla-title { position: relative; margin: 0; padding-left: 22px; font-family: 'DM Serif Display', serif; font-weight: 400; font-size: 22px; line-height: 1.2; color: var(--accent); text-transform: lowercase; text-shadow: 0 1px 0 var(--text-shadow-color); }
+.belly-tablilla-title::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 6px; background-color: var(--accent); border-radius: 0 6px 0 6px; }
+.belly-tablilla-meta { padding: 0 30px 16px 30px; font-family: 'DM Serif Display', serif; font-size: 10px; font-weight: 800; letter-spacing: 1.5px; color: var(--color-subtitle); text-transform: uppercase; }
+.belly-tablilla-arrow { color: var(--accent); margin: 0 4px; }
+.belly-tablilla-text { padding: 0 30px 30px 30px; font-family: 'DM Serif Display', serif; font-size: 13px; line-height: 1.7; color: var(--color-text); text-align: justify; }
